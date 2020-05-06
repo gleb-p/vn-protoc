@@ -12,7 +12,7 @@
   "binary": {
     "module_name": "vn-protoc",
     "host": "https://github.com/",
-    "remote_path": "gleb-p/vn-protoc/bin/v{version}",
+    "remote_path": "gleb-p/vn-protoc/raw/master/bin/v{version}",
     "package_name": "protoc-{platform}-{arch}.tar.gz",
     "module_path": "bin"
   }
