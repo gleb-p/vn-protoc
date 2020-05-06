@@ -1,0 +1,19 @@
+{
+  "name": "vn-protoc",
+  "version": "1.0.0",
+  "description": "protoc binary",
+  "main": "index.js",
+  "dependencies": {
+    "node-pre-gyp": "^0.14.0"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install"
+  },
+  "binary": {
+    "module_name": "vn-protoc",
+    "host": "https://github.com/",
+    "remote_path": "gleb-p/vn-protoc/bin/v{version}",
+    "package_name": "protoc-{platform}-{arch}.tar.gz",
+    "module_path": "bin"
+  }
+}
